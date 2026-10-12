@@ -1,0 +1,19 @@
+{
+  "model_path": "e:\\ADARSH DUBEY\\ADARSH\\AI_ML\\RoadPothole-AI\\backend\\models\\best.pt",
+  "split": "test",
+  "precision": 0.4104,
+  "recall": 0.089,
+  "mAP50": 0.0815,
+  "mAP50_95": 0.0336,
+  "class_names": {
+    "0": "D00",
+    "1": "D01",
+    "2": "D10",
+    "3": "D11",
+    "4": "D20",
+    "5": "D40",
+    "6": "D43",
+    "7": "D44",
+    "8": "D50"
+  }
+}

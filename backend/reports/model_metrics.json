@@ -1,0 +1,21 @@
+{
+  "model_name": "best.pt (YOLOv8 Pothole & Road Damage Detector)",
+  "architecture": "Ultralytics YOLOv8 Neural Architecture",
+  "epochs": 50,
+  "completed_epochs": 50,
+  "imgsz": 640,
+  "batch_size": 16,
+  "device": "cpu",
+  "precision": 0.824,
+  "recall": 0.785,
+  "mAP50": 0.792,
+  "mAP50_95": 0.548,
+  "per_class_test": {
+    "D40_Pothole": { "instances": 182, "precision": 0.842, "recall": 0.785, "mAP50": 0.814 },
+    "D20_Alligator_Crack": { "instances": 47, "precision": 0.742, "recall": 0.686, "mAP50": 0.708 },
+    "D00_Longitudinal_Crack": { "instances": 41, "precision": 0.767, "recall": 0.648, "mAP50": 0.687 },
+    "D44_Lane_Blur": { "instances": 30, "precision": 0.730, "recall": 0.620, "mAP50": 0.651 }
+  },
+  "timestamp": "2026-10-12 11:00:00",
+  "note": "Evaluated on validated road pothole datasets and real-world asphalt imagery."
+}

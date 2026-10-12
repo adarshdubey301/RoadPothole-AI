@@ -1,0 +1,85 @@
+{
+  "dataset_name": "RDD-India (Road Damage Detection - India)",
+  "source_path": "e:\\ADARSH DUBEY\\ADARSH\\AI_ML\\Roadpothole_AI\\dataset_Original",
+  "target_path": "e:\\ADARSH DUBEY\\ADARSH\\AI_ML\\RoadPothole-AI\\backend\\data\\processed",
+  "classes": {
+    "0": "D00",
+    "1": "D01",
+    "2": "D10",
+    "3": "D11",
+    "4": "D20",
+    "5": "D40",
+    "6": "D43",
+    "7": "D44",
+    "8": "D50"
+  },
+  "class_descriptions": {
+    "D00": "Wheel mark longitudinal linear crack",
+    "D01": "Construction joint longitudinal linear crack",
+    "D10": "Equal interval transverse linear crack",
+    "D11": "Construction joint transverse linear crack",
+    "D20": "Alligator / fatigue mesh crack",
+    "D40": "Pothole, bump, rutting, and road surface depression",
+    "D43": "Crosswalk degradation and blur",
+    "D44": "White line and lane marking blur",
+    "D50": "Manhole cover and utility access"
+  },
+  "pothole_class_id": 5,
+  "pothole_class_name": "D40",
+  "splits": {
+    "train": {
+      "image_count": 1358,
+      "annotated_images": 670,
+      "background_images": 688,
+      "total_boxes": 1432,
+      "class_distribution": {
+        "7": 155,
+        "0": 237,
+        "4": 365,
+        "5": 613,
+        "1": 28,
+        "3": 6,
+        "2": 13,
+        "8": 5,
+        "6": 10
+      }
+    },
+    "val": {
+      "image_count": 388,
+      "annotated_images": 190,
+      "background_images": 198,
+      "total_boxes": 457,
+      "class_distribution": {
+        "7": 51,
+        "5": 195,
+        "0": 84,
+        "3": 6,
+        "4": 100,
+        "1": 11,
+        "8": 2,
+        "6": 5,
+        "2": 3
+      }
+    },
+    "test": {
+      "image_count": 194,
+      "annotated_images": 99,
+      "background_images": 95,
+      "total_boxes": 199,
+      "class_distribution": {
+        "5": 71,
+        "7": 30,
+        "0": 41,
+        "4": 47,
+        "2": 2,
+        "1": 4,
+        "3": 2,
+        "8": 1,
+        "6": 1
+      }
+    }
+  },
+  "total_images": 1940,
+  "total_annotations": 2088,
+  "total_potholes": 879
+}

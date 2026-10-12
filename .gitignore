@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtualenvs
+.env
+.env.local
+.venv
+venv/
+ENV/
+env/
+
+# Package & build caches
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+frontend/dist/
+frontend/dist-ssr/
+frontend/node_modules/
+
+# SQLite & Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/data/*.db
+
+# Datasets (large raw images & processed directories)
+dataset_original/
+**/dataset_original/
+**/processed/
+data/processed/
+backend/data/dataset_original/
+backend/data/processed/
+
+# Uploaded test imagery (keep directory, ignore uploaded images)
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Checkpoints (allow lightweight production best.pt; ignore redundant/training checkpoints)
+backend/models/*.pt
+!backend/models/best.pt
+models/*.pt
+!models/best.pt
+**/weights/
+runs/
+
+# IDE & Editor caches
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
